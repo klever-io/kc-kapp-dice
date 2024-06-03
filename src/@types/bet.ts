@@ -17,5 +17,5 @@ export type FormattedBet = {
   diceValue: number;
   multiplier: number;
   isWinner: boolean;
-  txHash: string;
+  txHash?: string;
 };
